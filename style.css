@@ -6,16 +6,24 @@
     --color: white;
     --spacewarning: lightyellow;
     --unmatch: rgba(255, 0, 0, 0.1); 
-    }
+}
 html,body{
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 body{
     background: green;
+    display: grid;
+    place-items: center;
+    column-gap: 20px;
 }
 main{
     width: 40vw;
-    height: 30%;
+    height: 40%;
+    display: grid;
+    place-items: center;
     background-color: var(--background);
+    padding: 10px;
+    
 }
